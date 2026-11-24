@@ -7,7 +7,7 @@ services:
 
   server:
     build: ./server
-        image: mern-server
+    image: mern-server
     container_name: server
     ports:
       - "9000:9000"
@@ -20,7 +20,7 @@ services:
 
   client:
     build: ./client
-        image: mern-client
+    image: mern-client
     container_name: client
     ports:
       - "3000:3000"
